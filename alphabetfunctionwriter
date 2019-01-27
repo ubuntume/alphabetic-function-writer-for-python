@@ -1,0 +1,41 @@
+#Program made to write functions automatically using a loop and increasing or decreasing number
+#This program was and is being used to write a "brain type thing". Anywho
+
+#Hey computer these are the alphabets
+data = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+
+#Alphabets for humans are usually ordered 1 - 26 in the english language
+
+#Computer before you start adding anything together be sure to start at zero then add one each time
+
+#Creating the variable to count with and add to during each loop
+alphabetic_place = 0
+
+#hey computer each item that you see in the list I want you to do this with each one ok
+#Psst this is the loop I was talking about - the for loop
+
+for eachitem in data:
+    file_to_use = open("function.py", "a")
+    
+    #Beep Boop computer adding one
+    alphabetic_place = alphabetic_place + 1
+    
+    #Computer printing/showing me the out come of adding the numbers together as it goes over each item in data
+    
+    print(alphabetic_place)
+    
+    #Writing the function to the file I told it to.
+    #The result will be this
+    
+    """
+    if letter == a:
+        word_weight = word_weight + 1
+    
+    if letter == b:
+        word_weight = word_weight + 2 
+        
+        etc
+        etc
+    
+    """
+    file_to_use.write("if letter == "+char+":\n    word_weight = word_weight + "+str(alphabetic_place)+"\n")

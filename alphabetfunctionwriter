@@ -26,6 +26,8 @@ for eachitem in data:
     print(alphabetic_place)
     
     #Writing the function to the file I told it to.
+    file_to_use.write('if letter == "'+char+'":\n    word_weight = word_weight + '+str(alphabetic_place)+'\n')
+
     #The result will be this
     
     """

@@ -11,8 +11,8 @@ data = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r",
 #Creating the variable to count with and add to during each loop
 alphabetic_place = 0
 
-#hey computer each item that you see in the list I want you to do this with each one ok
-#Psst this is the loop I was talking about - the for loop
+#hey computer each item that you go over in the list I want you to do this with each one ok
+#Psst if your super new this is the loop I was talking about - the for loop
 
 for eachitem in data:
     file_to_use = open("function.py", "a")

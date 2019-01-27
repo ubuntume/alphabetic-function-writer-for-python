@@ -15,6 +15,7 @@ alphabetic_place = 0
 #Psst if your super new this is the loop I was talking about - the for loop
 
 for eachitem in data:
+    #Open the file function.py and append to it
     file_to_use = open("function.py", "a")
     
     #Beep Boop computer adding one
